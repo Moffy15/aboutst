@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myself</title>
+    <style>
+    	table { 
+        border-radius:5px;
+        }
+        table,tr,td {
+            border: 1px solid black;
+            
+        }
+        .myself {
+        text-align: center;
+        }
+        .name {
+         background-color: aqua;
+         }
+         .age {
+         background-color: lightgreen;
+         }
+         .address {
+         background-color: lightyellow;
+         }
+         .email {
+         background-color: pink;
+         }
+    </style>
+</head>
+<body>
+    <h2 class="myself">Myself</h2>
+    <table style="width:100%">
+        <tr class="name">
+          <td>Name</td>
+          <td>Saw Kyaw Si Thu</td>
+        </tr>
+        <tr class="age">
+          <td>Age</td>
+          <td>22</td>
+        </tr>
+        <tr class="address">
+          <td>Address</td>
+          <td>Yangon</td>
+        </tr>
+        <tr class="email">
+          <td>Email</td>
+          <td>sawkyawsithu9@gmail.com</td>
+        </tr>
+      </table>
+</body>
+</html>
